@@ -13,15 +13,31 @@
 
 ### Please see code comments for more details
 
-### Quick start: Train
+### Quick start
+
+#### Pre-process
 
 1. Download stack overflow dataset
    from [dataset](./data).
-
-2. Cd to '/Code', run the following script.
+      
+2. Run the following script.
 
 ```bash
-    python train.py
+    python pre-process.py
+```
+
+#### Train
+
+1. (Optional) Run the following script to get perplexity. 
+
+```bash
+    python perplexity.py
+```
+
+2. Run the following script to get LDA model.
+
+```bash
+    python train_LDA_model.py
 ```
 
 ## Detail Package Version
@@ -31,5 +47,5 @@
     pandas==1.3.5
     
     pickle==1.1.1
-    gensim==1.11.0
+    gensim==3.8.3
 ```
