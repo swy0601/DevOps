@@ -18,7 +18,7 @@
 #### Pre-process
 
 1. Download stack overflow dataset
-   from [dataset](./data).
+   from [dataset](https://drive.google.com/drive/folders/1p-TJ3J0u4hZmyZ9ZD6io-YBAJ6XzyihD?usp=sharing).
       
 2. Run the following script.
 
