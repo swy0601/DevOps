@@ -6,11 +6,11 @@ import warnings
 warnings.filterwarnings('ignore')
 from gensim import corpora, models
 
-dictionary = gensim.corpora.Dictionary.load('./model/dictionary.gensim')
-corpus = pickle.load(open('./model/corpus.pkl', 'rb'))
+dictionary = gensim.corpora.Dictionary.load('./models/dictionary.gensim')
+corpus = pickle.load(open('./models/corpus.pkl', 'rb'))
 
 corpus = [x for x in corpus if len(x)>0]
-pickle.dump(corpus, open('./model/corpus.pkl', 'wb'))
+pickle.dump(corpus, open('./models/corpus.pkl', 'wb'))
 
 listr=[]
 for i in range(2,8):
