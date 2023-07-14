@@ -19,8 +19,10 @@
 
 1. Download stack overflow dataset
    from [dataset](https://drive.google.com/drive/folders/1p-TJ3J0u4hZmyZ9ZD6io-YBAJ6XzyihD?usp=sharing).
+
+2. Put the data file under the [data](./data) directory
       
-2. Run the following script.
+3. Run the following script.
 
 ```bash
     python pre-process.py
